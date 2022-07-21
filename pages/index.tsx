@@ -67,6 +67,10 @@ const Home: NextPage = () => {
       });
   }, [fetchData, isLoading]);
 
+  useEffect(() => {
+    const rows = 
+  }, [tableOptions])
+
   return (
     <main className="page-wrapper">
       <header className="page-header">
