@@ -9,16 +9,28 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@headlessui/react": "^1.6.6",
+    "@heroicons/react": "^1.0.6",
+    "classnames": "^2.3.1",
+    "form-data": "^4.0.0",
     "next": "12.2.2",
+    "next-auth": "^4.10.1",
+    "pocketbase": "^0.2.1",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "sass": "^1.53.0"
   },
   "devDependencies": {
+    "@tailwindcss/forms": "^0.5.2",
     "@types/node": "18.0.6",
     "@types/react": "18.0.15",
     "@types/react-dom": "18.0.6",
+    "autoprefixer": "^10.4.7",
     "eslint": "8.20.0",
     "eslint-config-next": "12.2.2",
+    "postcss": "^8.4.14",
+    "saas": "^1.0.0",
+    "tailwindcss": "^3.1.6",
     "typescript": "4.7.4"
   }
 }

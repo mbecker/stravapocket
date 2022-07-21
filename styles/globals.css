@@ -1,16 +1,42 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+    @apply h-full;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.tbtn-primary{
+    @apply bg-pink-400;
 }
 
-* {
-  box-sizing: border-box;
+.tbtn-clear {
+    @apply bg-slate-700 text-gray-200;
+}
+
+.tbtn-clear {
+    @apply bg-transparent text-gray-600;
+}
+
+.tbtn-clear:hover {
+    @apply bg-gray-300;
+}
+
+.tbtn-edit {
+    background-color: var(--primaryColor);
+}
+
+.tbtn-edit:hover {
+    opacity: 0.9;
+}
+
+/* min-h/w used because standard button is defined with min height/Width */
+.tbtn-sm {
+    @apply min-h-0 min-w-0 px-3 py-2 ml-2;
+}
+
+.app-bottomnavigation {
+    background: var(--baseColor);
+    border-top: 1px solid var(--baseAlt2Color);
+    
 }
